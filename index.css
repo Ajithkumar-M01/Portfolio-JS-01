@@ -345,7 +345,7 @@ footer {
   }
   
 
-  @media (max-width: 680px) {
+  @media (max-width: 780px) {
     .my-name {
         font-size: 3.5rem;
     }
@@ -386,5 +386,9 @@ footer {
     #taskBarIcons2 span {
         /* display: none; */
         visibility: hidden;
+    }
+
+    #localTime {
+        margin-top: -5em;
     }
   }
