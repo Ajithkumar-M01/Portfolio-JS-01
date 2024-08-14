@@ -371,10 +371,6 @@ footer {
         flex-direction: column;
     }
 
-    .about-page {
-        position: relative;
-    }
-
     .page {
         margin-top: -18.5em;
     }
@@ -420,5 +416,8 @@ footer {
     .my-name::after {
         content: "KUMAR";
         display: block;
+    }
+    .about-body {
+        flex-direction: row;
     }
   }
