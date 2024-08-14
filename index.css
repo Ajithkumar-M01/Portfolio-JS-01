@@ -388,7 +388,17 @@ footer {
         visibility: hidden;
     }
 
-    #localTime {
-        margin-top: -5em;
+    .taskBarIcons1 {
+        margin-top: -5.75em;
+        margin-left: 1em;
     }
+
+    #localTime {
+        margin-top: -10.5em;
+    }
+
+    .my-name {
+        margin-top: -90vh;
+    }
+
   }
