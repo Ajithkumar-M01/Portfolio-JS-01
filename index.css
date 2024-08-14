@@ -404,20 +404,21 @@ footer {
         height: 78vh;
     }
     #localTime {
-        margin-top: -7.5em;
+        margin-top: -7em;
     }
     .windows {
-        margin-top: -2.5em;
+        margin-top: -2em;
     }
     .my-name {
         margin-top: -85vh;
-        font-size: 5rem;
+        font-size: 7.5rem;
+        text-align: center;
     }
     .my-name::before {
         content: "AJITH";
     }
     .my-name::after {
-        content: "AJITH";
+        content: "KUMAR";
         display: block;
     }
   }
