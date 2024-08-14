@@ -348,6 +348,7 @@ footer {
   @media (max-width: 780px) {
     .my-name {
         font-size: 3.5rem;
+        margin-top: -80vh;
     }
 
     #main {
@@ -396,10 +397,6 @@ footer {
 
     #localTime {
         margin-top: -5em;
-    }
-
-    .my-name {
-        margin-top: -90vh;
     }
 
   }
