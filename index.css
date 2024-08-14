@@ -417,11 +417,18 @@ footer {
         content: "KUMAR";
         display: block;
         font-size: 5.5rem;
+        margin-top: 0;
     }
     .aboutme-btn,.education-btn {
         width: 25vw;
     }
     .folder-title {
-        margin-top: -7.5em;
+        margin-top: -7em;
+    }
+    .about-page,.contact-page,.project-page {
+        height: 50vh;
+    }
+    .page,.page0 {
+        height: 40vh;
     }
   }
