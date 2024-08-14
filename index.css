@@ -348,12 +348,10 @@ footer {
   @media (max-width: 780px) {
     .my-name {
         font-size: 3.5rem;
-        margin-top: -80vh;
     }
 
     #main {
         font-size: 0.75rem;
-        height: 70vh;
     }
 
     .folder-title {
@@ -393,10 +391,6 @@ footer {
     .taskBarIcons1 {
         margin-top: -3em;
         margin-left: 1em;
-    }
-
-    #localTime {
-        margin-top: -5em;
     }
 
   }
