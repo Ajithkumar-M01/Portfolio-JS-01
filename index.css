@@ -406,7 +406,7 @@ footer {
         margin-top: -1em;
     }
     .my-name {
-        margin-top: -85vh;
+        margin-top: -75vh;
         font-size: 6.5rem;
         text-align: center;
     }
@@ -427,6 +427,7 @@ footer {
     }
     .about-page,.contact-page,.project-page {
         height: 60vh;
+        margin-top: 2em;
     }
     .page,.page0 {
         height: 45vh;
