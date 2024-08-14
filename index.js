@@ -157,10 +157,12 @@ function aboutWindow() {
             aboutText1.innerText = "Work Experience"
             const aboutText2 = document.createElement("h4")
             aboutText2.innerText = `Subject Matter Expert (2021-2023)`
+            aboutText2.style.textDecoration = "underline"
             const aboutText3 = document.createElement("p")
             aboutText3.innerText = `Amazon Development Center`
             const aboutText4 = document.createElement("h4")
             aboutText4.innerText = `Customer Service Associate (2018-2021)`
+            aboutText4.style.textDecoration = "underline"
             const aboutText5 = document.createElement("p")
             aboutText5.innerText = `Amazon Development Center`
             const aboutText6 = document.createElement("h2")
@@ -194,6 +196,7 @@ function aboutWindow() {
             aboutText1.innerText = "Education"
             const aboutText2 = document.createElement("h4")
             aboutText2.innerText = `Bachelor of Engineering`
+            aboutText2.style.textDecoration = "underline"
             const aboutText03 = document.createElement("p")
             aboutText03.classList.add("edu-p")
             aboutText03.innerText = `Score: 7.67 CGPA | Academic Year: 2013-2017`
@@ -201,11 +204,13 @@ function aboutWindow() {
             aboutText4.innerText = `(Awarded as 'The Best Student' in co-curricular activities)`
             const aboutText5 = document.createElement("h4")
             aboutText5.innerText = `Higher Secondary`
+            aboutText5.style.textDecoration = "underline"
             const aboutText06 = document.createElement("p")
             aboutText06.classList.add("edu-p")
             aboutText06.innerText = `Score: 88% | Academic Year: 2012-2013`
             const aboutText7 = document.createElement("h4")
             aboutText7.innerText = `SSLC`
+            aboutText7.style.textDecoration = "underline"
             const aboutText08 = document.createElement("p")
             aboutText08.classList.add("edu-p")
             aboutText08.innerText = `Score: 88% | Academic Year: 2010-2011`
@@ -607,7 +612,7 @@ function contactWindow() {
             // serviceID - templateID - #form - publicKey
             emailjs.sendForm('service_9jvfuvt','template_z3s8kw8','#contact-form','DC_fLFYYwm-yxKlmm')
               .then(() =>{
-                contactMessage.classList.add('color-blue')
+                contactMessage.classList.add('color-green')
                 contactMessage.textContent = 'Message sent 👍'
         
                 setTimeout(() => {

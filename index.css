@@ -309,7 +309,7 @@ footer {
     margin: 0 auto;
     text-align: center;
     width: 35%;
-    border: 1.5px solid #696969;
+    border: 1.5px solid #BEBFC5;
     border-radius: 0.5em;
     height: 1.5em;
   }
@@ -318,7 +318,7 @@ footer {
     margin: 0 auto;
     text-align: center;
     width: 35%;
-    border: 1.5px solid #696969;
+    border: 1.5px solid #BEBFC5;
     border-radius: 0.5em;
     height: 2.5em;
   }
@@ -344,8 +344,8 @@ footer {
     color:hsl(4, 71%, 50%);
   }
   
-  .color-blue {
-    color: hsl(207, 56%, 45%);
+  .color-green {
+    color: #008000;
   }
   
 
