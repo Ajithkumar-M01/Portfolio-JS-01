@@ -416,11 +416,12 @@ footer {
     .my-name::after {
         content: "KUMAR";
         display: block;
+        font-size: 5.5rem;
     }
     .aboutme-btn,.education-btn {
         width: 25vw;
     }
     .folder-title {
-        margin-top: -5em;
+        margin-top: -7.5em;
     }
   }
