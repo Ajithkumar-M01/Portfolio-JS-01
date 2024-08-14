@@ -417,7 +417,10 @@ footer {
         content: "KUMAR";
         display: block;
     }
-    .about-body {
-        flex-direction: row;
+    .aboutme-btn,.education-btn {
+        width: 25vw;
+    }
+    .folder-title {
+        margin-top: 0;
     }
   }
