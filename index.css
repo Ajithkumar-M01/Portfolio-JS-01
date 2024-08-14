@@ -394,3 +394,15 @@ footer {
     }
 
   }
+
+  @media (max-width: 480px) {
+    #main {
+        height: 78vh;
+    }
+    #localTime {
+        margin-top: -5em;
+    }
+    .window {
+        margin-top: -2em;
+    }
+  }
