@@ -404,14 +404,14 @@ footer {
         height: 78vh;
     }
     #localTime {
-        margin-top: -7em;
+        margin-top: -5.5em;
     }
     .windows {
-        margin-top: -2em;
+        margin-top: -1em;
     }
     .my-name {
         margin-top: -85vh;
-        font-size: 7.5rem;
+        font-size: 6.5rem;
         text-align: center;
     }
     .my-name::before {
