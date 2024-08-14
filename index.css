@@ -291,6 +291,10 @@ footer {
     /* opacity: 0.5; */
 }
 
+.my-name::after {
+    content: "AJITHKUMAR";
+}
+
 /*=============== CONTACT ===============*/
 
   .contact-form-div {
@@ -402,10 +406,18 @@ footer {
     #localTime {
         margin-top: -7.5em;
     }
-    .window {
-        margin-top: -5.5em;
+    .windows {
+        margin-top: -2.5em;
     }
     .my-name {
         margin-top: -85vh;
+        font-size: 5rem;
+    }
+    .my-name::before {
+        content: "AJITH";
+    }
+    .my-name::after {
+        content: "AJITH";
+        display: block;
     }
   }
