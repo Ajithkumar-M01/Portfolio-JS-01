@@ -429,6 +429,12 @@ footer {
         height: 60vh;
     }
     .page,.page0 {
-        height: 50vh;
+        height: 45vh;
+    }
+    .contact-form-input {
+        width: 55%;
+    }
+      .contact-form-input2 {
+        width: 55%;
     }
   }
