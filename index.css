@@ -400,9 +400,12 @@ footer {
         height: 78vh;
     }
     #localTime {
-        margin-top: -5em;
+        margin-top: -5.5em;
     }
     .window {
-        margin-top: -2em;
+        margin-top: -2.5em;
+    }
+    .my-name {
+        margin-top: -85vh;
     }
   }
