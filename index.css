@@ -352,6 +352,7 @@ footer {
 
     #main {
         font-size: 0.75rem;
+        height: 80vh;
     }
 
     .folder-title {
