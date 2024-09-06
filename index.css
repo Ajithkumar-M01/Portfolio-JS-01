@@ -36,6 +36,18 @@ footer {
   cursor: pointer;
 }
 
+.btn1 {
+    height: 5vh;
+    width: 2.5vw;
+
+  }
+.p-flex {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 0.5em;
+    margin-left: 37.5%;
+}
 #about {
   background-image: url("about3.png");
   background-size: contain;
@@ -112,6 +124,18 @@ footer {
   /* display: none; */
 }
 
+.starter-page {
+    height: 55vh;
+    width: 55vw;
+    margin-top: 12.5vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eeeeee;
+    border-radius: 1em;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+  
+  }
+
 .fadeIn {
   display: block;
   animation: fadeIn 1s ease-in-out forwards;
@@ -159,6 +183,10 @@ footer {
   background-color: #e81123;
   color: #eeeeee;
 }
+
+.red-body {
+    background-color: #ff3800;
+  }
 
 .aboutme-btn {
   height: 25vh;

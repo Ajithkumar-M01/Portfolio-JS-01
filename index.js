@@ -42,6 +42,61 @@ function updateTime() {
 
 setInterval(updateTime, 1000);
 
+// STARTER WINDOW
+function starterWindow() {
+    const starterPage = document.createElement("div");
+    
+    starterPage.classList.add("starter-page", "fadeIn");
+    main.appendChild(starterPage);
+
+    const deleteBtn1 = document.createElement("button");
+  deleteBtn1.appendChild(icon1);
+  deleteBtn1.classList.add("delete-btn");
+
+  deleteBtn1.addEventListener("click", () => {
+    main.removeChild(starterPage);
+  });
+    
+    starterPage.appendChild(deleteBtn1);
+    
+    const welcomeMsg = document.createElement("h2");
+    welcomeMsg.innerText = "Welcome to my portfolio";
+    welcomeMsg.style.textAlign = "center";
+    starterPage.appendChild(welcomeMsg);
+
+    const themeP = document.createElement("p");
+    const aboutP = document.createElement("p");
+    const projectP = document.createElement("p");
+    const contactP = document.createElement("p");
+    const closeP = document.createElement("p");
+
+    themeP.innerHTML = `Click <img src="windows_11.png" class="btn1"></img> to change theme`;
+    themeP.classList.add("p-flex");
+    // themeP.style.textAlign = "center";
+    aboutP.innerHTML = `Click <img src="about3.png" class="btn1"></img> to know about me`;
+    aboutP.classList.add("p-flex");
+    // aboutP.style.textAlign = "center";
+    projectP.innerHTML = `Click <img src="projects1.png" class="btn1"></img> to view my projects`;
+    projectP.classList.add("p-flex");
+    // projectP.style.textAlign = "center";
+    contactP.innerHTML = `Click <img src="contact.png" class="btn1"></img> to contact or hire me`;
+    contactP.classList.add("p-flex");
+    // contactP.style.textAlign = "center";
+    closeP.innerHTML = `Click <span class="material-symbols-outlined red-body">close</span> to close this tab`;
+    closeP.classList.add("p-flex");
+    // closeP.style.textAlign = "center";
+    starterPage.appendChild(themeP);
+    starterPage.appendChild(aboutP);
+    starterPage.appendChild(projectP);
+    starterPage.appendChild(contactP);
+    starterPage.appendChild(closeP);
+}
+
+setTimeout(() => {
+    starterWindow()
+
+},2000)
+
 function aboutWindow() {
   const aboutPage = document.createElement("div");
 
