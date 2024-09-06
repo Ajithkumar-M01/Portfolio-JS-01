@@ -467,4 +467,9 @@ footer {
   .project-titles {
     width: 50%;
   }
+
+  .name-sub2 {    
+    font-size: 2rem;
+    text-align: center;
+  }
 }
