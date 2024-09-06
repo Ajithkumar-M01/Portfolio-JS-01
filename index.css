@@ -507,11 +507,12 @@ footer {
   }
   .p-flex {
     
-    margin-left: 20%;
+    margin-left: 15%;
 }
 .starter-page {
     height: 45vh;
     width: 60vw;
-  
+    margin-top: 22.5vh;
+
   }
 }
