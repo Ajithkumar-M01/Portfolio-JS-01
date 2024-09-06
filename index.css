@@ -509,4 +509,9 @@ footer {
     
     margin-left: 20%;
 }
+.starter-page {
+    height: 45vh;
+    width: 60vw;
+  
+  }
 }
