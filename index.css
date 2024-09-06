@@ -501,4 +501,12 @@ footer {
     text-align: center;
     margin-top: -11.5vh;
   }
+  .btn1 {
+    width: 5vw;
+
+  }
+  .p-flex {
+    
+    margin-left: 30.5%;
+}
 }
