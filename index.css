@@ -216,21 +216,20 @@ footer {
 }
 
 #windows {
-    object-fit: contain;
-    object-position: center;
-    width: 2.5em;
-    /* background-color: #2a3439; */
-    padding: 0.05em 0.35em;
+  object-fit: contain;
+  object-position: center;
+  width: 2.5em;
+  /* background-color: #2a3439; */
+  padding: 0.05em 0.35em;
+}
 
-  }
-  
-  #windows:hover {
-    /* scale: 1.1; */
-    /* background-color: #2a3439; */
-    border-radius: 0.5em;
+#windows:hover {
+  /* scale: 1.1; */
+  /* background-color: #2a3439; */
+  border-radius: 0.5em;
   background-color: #eeeeee;
   box-shadow: 0 0 2.5px 1.25px rgba(0, 0, 0, 0.5);
-  }
+}
 
 .taskBarIcons1 {
   margin-top: -3.75em;
@@ -304,6 +303,20 @@ footer {
 .my-name::after {
   content: "AJITHKUMAR";
 }
+
+.name-sub2 {
+    font-family: "Orbitron", sans-serif;
+    /* font-family: "Protest Guerrilla", sans-serif; */
+    /* font-family: "Handjet", sans-serif; */
+    /* font-family: "Black Ops One", system-ui; */
+    /* font-family: "Allerta Stencil", sans-serif; */
+    /* font-family: "Jersey 10 Charted", sans-serif; */
+    color: #bebfc5;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: -12.5vh;
+    margin-left: 2vw;
+  }
 
 /*=============== CONTACT ===============*/
 
@@ -399,7 +412,7 @@ footer {
   }
 
   .taskBarIcons1 {
-    margin-top: -3.60em;
+    margin-top: -3.6em;
     margin-left: 1em;
   }
 }
